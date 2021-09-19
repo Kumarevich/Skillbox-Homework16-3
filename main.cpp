@@ -3,7 +3,7 @@
 #include <sstream>
 
 int main() {
-    std::string strInput, number1str = "", number2str = "";
+    std::string strInput;
     std::cout << "Input your mathematical expression in format <number1><action><number2>: ";
     std::cin >> strInput;
     std::stringstream ss;
